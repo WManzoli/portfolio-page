@@ -126,6 +126,10 @@ const WindowTitle = styled.div`
   padding-left: 15px;
   height: 32px;
 
+  @media (max-width: 600px) {
+    font: 400 0.8rem "DotGothic16";
+  }
+
 `;
 
 const WindowBody = styled.div`
