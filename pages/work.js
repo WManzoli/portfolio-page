@@ -91,30 +91,11 @@ const SpinnerSpan = styled.div`
 
 
 
-const Container = styled.div`
-height: 10vh;
-  letter-spacing: 10px;
-  font-family: Roboto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-`;
-
 const Column = styled.div`
-filter: invert(0%);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-`;
-
-const Row = styled.div`
-  gap: 15vw;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly;
 `;
 
 

@@ -21,6 +21,9 @@ const Body = styled.div`
   background: #f5f5f5;
   height: 90vh;
   width: 100vw;
+  
+  overflow: hidden;
+  position: relative;
 `;
 
 const Container = styled.div`

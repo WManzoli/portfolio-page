@@ -22,6 +22,9 @@ const fadeIn = keyframes`
   height: 90vh;
   
   width: 100vw;
+  
+  overflow: hidden;
+  position: relative;
 `;
 
 const Container = styled.div`
