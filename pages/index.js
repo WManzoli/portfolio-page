@@ -57,31 +57,53 @@ const Heading = styled.h1`
   color: rgba(0, 0, 0, 0.0);
   text-shadow: 0 0 60px rgba(255, 255, 255, 100);
 
-  font-size: 4rem;
+  font-size: 5rem;
   font-weight: 900;
-  
+
+  @media (max-width: 600px) {
+    font-size: 3em;
+    font-weight: 900;
+  }
 
 `;
 
 const Heading2 = styled.h2`
   margin:0px;
   color: #666;
-  font-size: 1.5em;
-  font-weight: 200;
+  font-size: 2em;
+  font-weight: 300;
+
+  @media (max-width: 600px) {
+    font-size: 1em;
+    font-weight: 200;
+  }
+  
 `;
 
 const Strong = styled.h2`
   margin:0px;
   color: #666;
   font-size: 2em;
-  font-weight: 300;
+  font-weight: 500;
+
+  @media (max-width: 600px) {
+    font-size: 1.5em;
+    font-weight: 400;
+  }
+
 `;
 
 const Heading3 = styled.h3`
   margin:0px;
   text-align:center;
   font-size: 1em;
-  font-weight: 300;
+  font-weight: 400;
+
+  @media (max-width: 600px) {
+    font-size: 0.7em;
+    font-weight: 400;
+  }
+
 `;
 
 const Shadow = styled.div`
@@ -103,7 +125,7 @@ export default function Home() {
       <Body>
       <Container>
         <Row>
-        <Heading2>Hello, i am</Heading2><Strong> William</Strong>
+        <Heading2>Hello, i am</Heading2><Strong> William</Strong>
         </Row>
         <Row>
           <Heading2>aka.</Heading2><Heading>Manzoli</Heading>
