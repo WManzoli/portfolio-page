@@ -3,6 +3,7 @@ import Router from 'next/router'
 import Layout from '../components/Layout';
 import '../styles/globals.css';
 
+
 Router.events.on('routeChangeStart', (url) => {
   console.log(`Loading: ${url}`)
   NProgress.start()
